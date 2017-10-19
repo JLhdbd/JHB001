@@ -51,11 +51,17 @@ git push -u origin master  //第一次上传需要加 -u  之后就不需要添�
 
 //创建与合并分支
 创建dev分支，然后切换到dev分支：git checkout -b dev
-
 git branch：查看当前分支
-
 git checkout master：切换回master分支
 git merge dev：把dev分支的工作成果合并到master分支上
+git branch -d dev：删除分支
+
+总结：查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>
+创建+切换分支：git checkout -b <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
 
 
 
